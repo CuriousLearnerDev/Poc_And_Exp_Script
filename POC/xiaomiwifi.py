@@ -83,7 +83,7 @@ def mian(url):
 if __name__ == '__main__':
 
     parser = argparse.ArgumentParser(description="\033[1;31m小米系列路由器远程任务执行（CVE-2019-18370，CVE-2019-18371）POC\033[0m",
-                                     usage='python3 arbitrary_file_read_vulnerability.py  [目标] [可选参数]')
+                                     usage='python3 xxxx.py -u [目标] -p [代理可选参数]')
 
     Active_collect_message = parser.add_argument_group(choose_color_2("参数"),
                                                        choose_color_2("下面是参数和参数的使用说明"))
